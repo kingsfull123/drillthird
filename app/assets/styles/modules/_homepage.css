@@ -1,0 +1,27 @@
+.title {
+    color: $mainBlue;
+
+    @mixin atSmall {
+        color: gold;
+    }
+
+    @mixin atMedium {
+        color: red;
+    }
+
+    @mixin atLarge {
+        color: green;
+    }
+
+    &--centered {
+        text-align: center;
+    }
+}
+
+.subtitle {
+    color: $mainOrange;
+
+    &--centered {
+        text-align: center;
+    }
+}
